@@ -10,5 +10,6 @@ Vue.directive('greet', {
 })
 
 new Vue({
+  el: '#app',
   render: h => h(App),
-}).$mount('#app')
+})
